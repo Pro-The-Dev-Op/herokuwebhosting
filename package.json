@@ -1,0 +1,31 @@
+{
+  "name": "node-passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "passport-config.js",
+  "scripts": {
+    "test": "nodemon new/server.js",
+    "start": "node server.js",
+    "serve": "nodemon server.js",
+    "buildetr": "/node_modules/.bin/netlify-lambda build views"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "build": "^0.1.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "netlify-lambda": "^2.0.15",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
