@@ -2,5 +2,4 @@ netlify.toml
 .cspell
 new
 .vscode
-.env
 node_modules
