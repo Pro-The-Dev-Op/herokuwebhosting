@@ -1,5 +1,6 @@
 netlify.toml
 .cspell
 new
+.env
 .vscode
 node_modules
