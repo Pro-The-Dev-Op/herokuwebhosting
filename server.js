@@ -29,9 +29,7 @@ if (process.env.NODE_ENV !== 'production') {
       }
     ]
   ]
-  app.listen(port, () =>{
-    console.log(`listening to port at ${port}`)
-  })
+  
   app.set('view-engine', 'ejs')
   app.use(express.urlencoded({extended:false}))
   app.use(session({
